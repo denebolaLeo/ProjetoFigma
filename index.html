@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hélio Medeiros — Fotografia + Palavra</title>
+  <meta name="description" content="Portfólio de Hélio Medeiros. Fotografia documental, declamação, cultura e resistência." />
+
+  <!-- Google Fonts: Anton, Inter, Permanent Marker -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&family=Permanent+Marker&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-container">
+    
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+      <div class="header-identity">
+        <a href="#hero" class="brand-title">Hélio Medeiros</a>
+        <span class="brand-subtitle">FOTOGRAFIA + PALAVRA</span>
+      </div>
+
+      <nav class="header-nav">
+        <a href="#hero" class="nav-item active">Home</a>
+        <a href="#trabalhos" class="nav-item">Trabalhos</a>
+        <a href="#contato" class="nav-item">Contato</a>
+      </nav>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button class="mobile-menu-btn" aria-label="Abrir menu de navegação" aria-expanded="false">
+        <span class="hamburger-line line-1"></span>
+        <span class="hamburger-line line-2"></span>
+        <span class="hamburger-line line-3"></span>
+      </button>
+
+      <!-- Drawer de Navegação Mobile -->
+      <div class="mobile-nav-drawer" aria-hidden="true">
+        <div class="drawer-header">
+          <span class="drawer-subtitle">MENU</span>
+          <button class="drawer-close-btn" aria-label="Fechar menu">&times;</button>
+        </div>
+        <div class="drawer-links">
+          <a href="#hero" class="drawer-nav-item active">Home</a>
+          <a href="#sobre" class="drawer-nav-item">Sobre Mim</a>
+          <a href="#trabalhos" class="drawer-nav-item">Trabalhos</a>
+          <a href="#contato" class="drawer-nav-item">Contato</a>
+        </div>
+        <div class="drawer-footer">
+          <span class="drawer-tagline">FOTOGRAFIA · PALAVRA · RESISTÊNCIA</span>
+          <span class="drawer-subtag">Arte que ocupa espaços.</span>
+        </div>
+      </div>
+      <!-- Backdrop escuro para quando o menu mobile abrir -->
+      <div class="mobile-nav-backdrop"></div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+      <!-- Left side text & collage elements -->
+      <div class="hero-content">
+        <h1 class="hero-title anim-hero-title">OLHAR É<br />RESISTIR.</h1>
+        <p class="hero-subtitle anim-hero-sub">Fotografia e palavra.<br />Memória, afeto e resistência.</p>
+        
+        <div class="hero-paper-strip anim-hero-strip">
+          <span class="handwritten-phrase">a palavra também é imagem.</span>
+        </div>
+      </div>
+
+      <!-- Right side photo collage -->
+      <div class="hero-collage anim-hero-collage">
+        <div class="collage-base-black"></div>
+        <div class="collage-photo-wrapper">
+          <img src="assets/images/foto-01-bandeira.png" alt="Bandeira erguida em ato político" class="collage-photo" />
+        </div>
+        <div class="tape hero-tape-top"></div>
+        <div class="tape hero-tape-bottom"></div>
+        <p class="hero-photo-tag">ATO POLÍTICO · FOTOGRAFIA DOCUMENTAL</p>
+      </div>
+
+      <!-- Hero Bottom Bar -->
+      <div class="hero-bottom-bar anim-hero-bar">
+        <div class="hero-manifesto-tag">
+          FOTOGRAFIA &nbsp;/&nbsp; DECLAMAÇÃO &nbsp;/&nbsp; RESISTÊNCIA
+        </div>
+        <a href="#trabalhos" class="btn-ver-trabalhos">
+          <span>VER TRABALHOS &nbsp;↘</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==================== SOBRE MIM ==================== -->
+    <section id="sobre" class="about-section">
+      <div class="section-editorial-header reveal-on-scroll">
+        <div class="line-divider"></div>
+        <div class="editorial-index">01 / SOBRE MIM</div>
+      </div>
+
+      <div class="about-content">
+        <!-- Coluna da Esquerda: Retrato -->
+        <div class="about-portrait-col reveal-on-scroll">
+          <div class="portrait-wrapper">
+            <div class="photo-inner">
+              <img src="assets/images/foto-02-helio.png" alt="Hélio Medeiros com sua câmera" class="portrait-img" />
+            </div>
+          </div>
+          <div class="portrait-caption">
+            <span class="caption-name">Hélio Medeiros</span>
+            <span class="caption-role">POR TRÁS DA CÂMERA</span>
+          </div>
+        </div>
+
+        <!-- Coluna da Direita: Apresentação -->
+        <div class="about-text-col reveal-on-scroll delay-1">
+          <h2 class="about-heading">POR TRÁS<br />DO OLHAR.</h2>
+          <p class="about-marker-subhead">A imagem encontra a voz.<br />A arte ocupa a rua.</p>
+          
+          <div class="about-bio">
+            <p>
+              Fotógrafo e declamador. Entre imagens e palavras, meu trabalho se aproxima da cultura, 
+              das manifestações e dos gestos de resistência. Um olhar atento ao que pulsa dentro e 
+              fora do enquadramento.
+            </p>
+          </div>
+
+          <div class="about-signature-row">
+            <span class="signature-name">Hélio Medeiros</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elementos gráficos decorativos da seção -->
+      <div class="tape-red-portrait reveal-on-scroll delay-2"></div>
+      <div class="cartaz-underline reveal-on-scroll delay-1"></div>
+      <div class="marker-presence reveal-on-scroll delay-2">arte é presença.</div>
+    </section>
+
+    <!-- ==================== EXEMPLOS DE TRABALHOS ==================== -->
+    <section id="trabalhos" class="works-section">
+      <!-- Barra vermelha decorativa na margem esquerda -->
+      <div class="red-sidebar-mark"></div>
+
+      <div class="works-container">
+        <!-- Cabeçalho da seção de trabalhos -->
+        <div class="section-editorial-header dark reveal-on-scroll">
+          <div class="line-divider"></div>
+          <div class="editorial-index">02 / IMAGENS QUE FICAM</div>
+          <div class="works-title-row">
+            <h2 class="works-main-heading">CADA ENCONTRO,<br />UMA HISTÓRIA.</h2>
+            <p class="works-editorial-note">
+              Do afeto à rua, do silêncio à palavra.<br />Um olhar que também toma posição.
+            </p>
+          </div>
+        </div>
+
+        <!-- Trabalho 01: Grupo Incena -->
+        <article class="work-block reveal-on-scroll">
+          <div class="work-sidebar">
+            <div class="line-divider"></div>
+            <span class="work-category">TEATRO / INCENA</span>
+            <h3 class="work-title">Histórias<br />em cena.</h3>
+            <p class="work-desc">
+              Grupo Incena em Teófilo Otoni. Presença, luz e expressão sobre o palco.
+            </p>
+            <span class="work-tag">FOTOGRAFIA DE ESPETÁCULO</span>
+          </div>
+
+          <div class="work-gallery">
+            <!-- Foto Destaque com Fita -->
+            <div class="work-featured-item reveal-on-scroll delay-1">
+              <div class="photo-with-tape">
+                <div class="tape tape-craft"></div>
+                <div class="photo-inner">
+                  <img src="assets/images/foto-03-incena.png" alt="Grupo Incena em cena" class="work-photo" />
+                </div>
+              </div>
+              <div class="work-caption">
+                <span class="caption-title">Grupo Incena</span>
+                <span class="caption-location">Teófilo Otoni · MG</span>
+              </div>
+            </div>
+
+            <!-- Mosaico de Apoio -->
+            <div class="work-support-mosaic row-mosaic reveal-on-scroll delay-2">
+              <div class="photo-inner">
+                <img src="assets/images/foto-04-incena.png" alt="Grupo Incena - Detalhe 1" class="mosaic-photo" />
+              </div>
+              <div class="photo-inner">
+                <img src="assets/images/foto-05-incena.png" alt="Grupo Incena - Detalhe 2" class="mosaic-photo" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="line-divider work-separator"></div>
+
+        <!-- Trabalho 02: Halloween do Duna -->
+        <article class="work-block reveal-on-scroll">
+          <div class="work-sidebar">
+            <span class="work-huge-number">02</span>
+            <div class="line-divider"></div>
+            <span class="work-category">FESTA / HALLOWEEN</span>
+            <h3 class="work-title">Halloween<br />do Duna.</h3>
+            <p class="work-desc">
+              Retratos e encontros na festa de Halloween organizada pelo Duna.
+            </p>
+            <span class="work-tag">FOTOGRAFIA DE EVENTOS</span>
+          </div>
+
+          <div class="work-gallery gallery-reverse">
+            <!-- Mosaico de Apoio (Coluna vertical) -->
+            <div class="work-support-mosaic col-mosaic reveal-on-scroll delay-1">
+              <div class="photo-inner">
+                <img src="assets/images/foto-06-halloween.png" alt="Halloween do Duna - Foto 1" class="mosaic-photo-rect" />
+              </div>
+              <div class="photo-inner">
+                <img src="assets/images/foto-07-halloween.png" alt="Halloween do Duna - Foto 2" class="mosaic-photo-rect" />
+              </div>
+            </div>
+
+            <!-- Foto Destaque Maior com Fita -->
+            <div class="work-featured-item-wide reveal-on-scroll delay-2">
+              <div class="photo-with-tape wide">
+                <div class="tape tape-craft"></div>
+                <div class="photo-inner">
+                  <img src="assets/images/foto-08-halloween.png" alt="Halloween do Duna - Foto Principal" class="work-photo" />
+                </div>
+              </div>
+              <div class="work-caption">
+                <span class="caption-title">Halloween do Duna</span>
+                <span class="caption-location">Festa · Retratos</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Trabalho 03: Fotografia Imersiva (Bandeira em chamas) -->
+      <div class="immersive-photo-container reveal-on-scroll">
+        <img src="assets/images/foto-09-bandeira-chamas.png" alt="Bandeira dos Estados Unidos em chamas em ato político" class="immersive-image" />
+        
+        <div class="immersive-top-tag">
+          <span>03 / ARTE &amp; RESISTÊNCIA</span>
+        </div>
+
+        <div class="immersive-bottom-content">
+          <h2 class="immersive-heading">A RUA TAMBÉM É NOSSA.</h2>
+          <div class="line-divider"></div>
+          <div class="immersive-caption-row">
+            <span class="immersive-caption-text">Bandeira dos Estados Unidos queimada em ato político.</span>
+            <span class="immersive-category-tag">FOTOGRAFIA DOCUMENTAL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTATO / ORÇAMENTO ==================== -->
+    <section id="contato" class="contact-section">
+      <div class="section-editorial-header reveal-on-scroll">
+        <div class="line-divider"></div>
+        <div class="editorial-index">04 / VAMOS CONVERSAR</div>
+      </div>
+
+      <div class="contact-main">
+        <!-- Coluna da Esquerda: Convite & Serviços -->
+        <div class="contact-info-col reveal-on-scroll">
+          <h2 class="contact-heading">VAMOS CRIAR<br />ALGO VIVO?</h2>
+          <p class="contact-intro">
+            Fotografia, declamação ou um projeto que cruze os dois. Me conta a sua ideia.
+          </p>
+
+          <div class="services-list">
+            <div class="service-item">Ensaios &amp; registros documentais</div>
+            <div class="service-item">Cobertura cultural &amp; manifestações</div>
+            <div class="service-item">Declamação &amp; encontros artísticos</div>
+          </div>
+        </div>
+
+        <!-- Coluna da Direita: Formulário -->
+        <div class="contact-form-col reveal-on-scroll delay-1">
+          <h3 class="form-title">Tire sua ideia do papel.</h3>
+          
+          <form id="contact-form" class="editorial-form">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+                <div class="line-divider field-line"></div>
+              </div>
+              <div class="form-field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                <div class="line-divider field-line"></div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="tipo_projeto">Tipo de projeto</label>
+                <input type="text" id="tipo_projeto" name="tipo_projeto" placeholder="Ensaio, cobertura, etc." />
+                <div class="line-divider field-line"></div>
+              </div>
+              <div class="form-field">
+                <label for="data">Data prevista</label>
+                <input type="text" id="data" name="data" placeholder="Mês / Ano ou data específica" />
+                <div class="line-divider field-line"></div>
+              </div>
+            </div>
+
+            <div class="form-field full-width">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="3" placeholder="Conte mais sobre o que deseja realizar..." required></textarea>
+              <div class="line-divider field-line"></div>
+            </div>
+
+            <button type="submit" class="submit-button">
+              <span>Enviar mensagem &nbsp;↗</span>
+              <img src="assets/images/arrow-up-right.svg" alt="" class="submit-icon" />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Assinatura Final / Rodapé Editorial -->
+      <footer class="editorial-footer reveal-on-scroll">
+        <div class="line-divider"></div>
+        <div class="footer-credits">
+          <span class="footer-brand">Hélio Medeiros</span>
+          <span class="footer-middle">FOTOGRAFIA · PALAVRA · RESISTÊNCIA</span>
+          <span class="footer-end">Arte que ocupa espaços.</span>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
